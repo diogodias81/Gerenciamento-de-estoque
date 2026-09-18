@@ -1,0 +1,58 @@
+.text{
+    background-color:#f5db93;
+    color: rgb(3, 3, 3);
+}
+body{
+    background-color: #f0dead;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    min-height:720px;
+}
+
+.card{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 500px;
+    background-color: #BDA562;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    background-color:#1B2C3B;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 6px;
+}
+
+.resultado{
+    color: white;
+}
+
+.form{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    background-color: #BDA562;
+    border-radius: 10px;
+}
+.produtos{
+    display: flex;
+   align-self: flex-start;
+
+}
